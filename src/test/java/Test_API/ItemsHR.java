@@ -1,4 +1,4 @@
-package Test_API.pojo;
+package Test_API;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
