@@ -1,4 +1,4 @@
-package Test_API;
+package Test_API.Employee_Hr;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
@@ -13,7 +13,7 @@ public class ItemsHR {
     private String first_name;
     private String last_name;
     private String email;
-    private long phone_number;
+    private String phone_number;
     private String hire_date;
     private String job_id;
     private int salary;
