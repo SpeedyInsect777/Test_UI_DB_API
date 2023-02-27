@@ -15,13 +15,13 @@ public class Test01 {
 
     ResultSet resultSet;
 
-    String dbUrl = "jdbc:mysql://127.0.0.1:3306/Fleet";
+    String dbUrl = "jdbc:mysql://127.0.0.1:3306/MyFleet";
 
     String dbUsername = "root";
 
-    String dbPassword = "Prime2022!";
+    String dbPassword = "root";
 
-    String allTrips = "select * from trip_report";
+    String allTrips = "select *from employees";
 
     String newTrip = "insert into trip_report values (103,'2023-02-02','Springfield IL','Cleveland OH','2023-02-05',999.99)";
 
@@ -48,7 +48,7 @@ public void quit() throws SQLException {
     @Test
     public void test01() throws SQLException {
 
-        statement.executeUpdate(newTrip);
+       // statement.executeUpdate(newTrip);
 
        while (resultSet.next()) {
 
