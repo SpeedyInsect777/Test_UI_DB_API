@@ -1,4 +1,4 @@
-package Test_Java.Test01;
+package Test_Java.Test_01;
 
 import com.github.javafaker.Faker;
 import org.junit.Test;
