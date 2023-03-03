@@ -1,4 +1,4 @@
-package Test_UI.Test_02;
+package Test_UI.Test_01;
 
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;

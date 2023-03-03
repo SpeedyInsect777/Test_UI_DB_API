@@ -1,4 +1,4 @@
-package Test_UI.Test_03;
+package Test_UI.Test_02;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
@@ -8,12 +8,10 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.Wait;
 
-import java.awt.*;
-import java.sql.Time;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Test01 {
+public class Test_01 {
 
     WebDriver driver;
 
