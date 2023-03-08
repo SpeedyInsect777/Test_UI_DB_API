@@ -45,7 +45,7 @@ public class Test_01 {
 
         WebElement checkBox1 = driver.findElement(By.id("box1"));
 
-if (!checkBox1.isSelected());
+if (!checkBox1.isSelected())
         {
             checkBox1.click();
             System.out.println("Selected ! ");
