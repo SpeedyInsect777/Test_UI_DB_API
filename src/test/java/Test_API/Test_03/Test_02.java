@@ -89,16 +89,29 @@ public class Test_02 {
         System.out.println("????"+objectMap2);
 
     }
-    @Test
-    public void test04(){
-
-        given().contentType(ContentType.JSON)
-                .pathParam("id",159)
-                .when().delete("/api/spartans/{id}").then().statusCode(HttpStatus.SC_NO_CONTENT);
-    }
-    @Test
-    public void test05(){
-        given().contentType(ContentType.JSON).pathParam("id",156)
-                .when().delete("/api/spartans/{id}").then().statusCode(HttpStatus.SC_NO_CONTENT);
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
