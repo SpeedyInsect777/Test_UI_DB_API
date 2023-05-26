@@ -1,18 +1,23 @@
 package Test_UI.Test_05;
-import java.io.*;
+
 class ReadDataThread extends Thread {
+
     private String fileName;
 
     public ReadDataThread(String fileName) {
+
         this.fileName = fileName;
     }
 
     public void run() {
+
         System.out.println("Reading data from file: " + fileName);
+
         try {
             // Read data from file
             // ...
         } catch (Exception e) {
+
             e.printStackTrace();
         }
     }
@@ -31,14 +36,18 @@ class ProcessDataThread extends Thread {
 }
 
 class WriteDataThread extends Thread {
+
     private String fileName;
 
     public WriteDataThread(String fileName) {
+
         this.fileName = fileName;
     }
 
     public void run() {
+
         System.out.println("Writing data to file: " + fileName);
+
         try {
             // Write the processed data to another file
             // ...

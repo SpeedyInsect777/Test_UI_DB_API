@@ -7,7 +7,10 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.jupiter.api.Test;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -19,20 +22,20 @@ public class Test_01 {
     @Test
     public void test01() {
 
-        Map<String, String> myMap = new HashMap<>();
+   Map<String,String> myMap = new HashMap<>();
 
-        myMap.put("a", "candy");
-        myMap.put("b", "dirt");
+   myMap.put("a","candy");
+   myMap.put("b","dirt");
+
+
 
     }
-
     @Test
     public void test02() {
         try {
             FileInputStream file = new FileInputStream(new File("src/test/resources/MyExcel/Library.xlsx"));
             Workbook workbook = new XSSFWorkbook(file);
             Sheet sheet = workbook.getSheetAt(0);
-
             Iterator<Row> rowIterator = sheet.iterator();
             while (rowIterator.hasNext()) {
                 Row row = rowIterator.next();
@@ -64,23 +67,5 @@ public class Test_01 {
         }
     }
 
-    @Test
-    public void test03() throws IOException {
-
-        FileInputStream file = new FileInputStream(new File("SampleData.xlsx"));
-        Workbook workbook = new XSSFWorkbook(file);
-        Sheet sheet = workbook.getSheet("Employees");
-        Row row = sheet.createRow(5);
-        Cell cell = row.createCell(0);
-        System.out.println(sheet.getRow(1).getCell(0));
-
-        cell.setCellValue("Mike");
-        System.out.println(sheet.getRow(5).getCell(0));
-
-        FileOutputStream fileOutputStream = new FileOutputStream("SampleData.xlsx");
-        workbook.write(fileOutputStream);
-        fileOutputStream.close();
-
-    }
 }
 
