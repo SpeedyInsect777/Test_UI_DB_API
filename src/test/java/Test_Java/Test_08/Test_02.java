@@ -20,10 +20,10 @@ public class Test_02 {
         FileOutputStream fileOutputStream = null;
         Workbook workbook = null;
         try {
-            fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01.xlsx");
+            fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
             workbook = WorkbookFactory.create(fileInputStream);
             Sheet sheet = workbook.getSheet("Employees");
-            fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+            fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
             Row row = sheet.createRow(0);
             row.createCell(0).setCellValue("Name");
             workbook.write(fileOutputStream);
@@ -52,12 +52,12 @@ FileOutputStream fileOutputStream =null;
 Workbook workbook = null;
 
 try{
-    fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01.xlsx");
+    fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
     workbook =  WorkbookFactory.create(fileInputStream);
     Sheet sheet = workbook.getSheet("Employees");
     Row row = sheet.createRow(0);
     row.createCell(0).setCellValue("Name");
-    fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+    fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
     workbook.write(fileOutputStream);
 
 }catch (IOException e){
@@ -84,12 +84,12 @@ finally {
         Workbook workbook = null;
 
         try {
-            fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01.xlsx");
+            fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
             workbook = WorkbookFactory.create(fileInputStream);
             Sheet sheet = workbook.getSheet("Employees");
             Row row = sheet.createRow(0);
             row.createCell(1).setCellValue("lastname");
-            fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+            fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
             workbook.write(fileOutputStream);
 
         }catch (IOException e){

@@ -23,7 +23,7 @@ public class Test_01 {
         FileOutputStream fileOutputStream = null;
 
         try {
-            fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01.xlsx");
+            fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
             workbook = WorkbookFactory.create(fileInputStream);
             sheet = workbook.getSheet("Employees");
 
@@ -31,7 +31,7 @@ public class Test_01 {
             row.createCell(0).setCellValue("Mike");
             row.createCell(1).setCellValue("Tyson");
 
-            fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+            fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
             workbook.write(fileOutputStream);
 
 

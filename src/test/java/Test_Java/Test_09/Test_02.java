@@ -1,15 +1,29 @@
 package Test_Java.Test_09;
 
-public class Test_02 extends Thread{
+import org.junit.jupiter.api.Test;
 
-   private String lastName;
+public class Test_02 {
 
-   public Test_02(String lastName){
 
-       this.lastName=lastName;
+    @Test
+    public void test01(){
 
-   }
-   public void run (){
-       System.out.println("Lastname: "+lastName);
-   }
+        String word = "Word2";
+
+try {
+    if (!word.equalsIgnoreCase("Word")){
+throw new FailedTest();
+    }
+}
+catch (Throwable e){
+    System.out.println(e);
+}
+    }
+}
+class FailedTest extends Throwable {
+
+    public FailedTest() {
+
+    super("Test Failed");
+}
 }

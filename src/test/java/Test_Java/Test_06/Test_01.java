@@ -11,9 +11,9 @@ public class Test_01 {
     @Test
     public void test01() throws IOException {
 
-        FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01.xlsx");
+        FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
         Workbook workbook = WorkbookFactory.create(fileInputStream);
-        FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+        FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
         workbook.createSheet("Employees");
         workbook.write(fileOutputStream);
         workbook.close();
@@ -25,10 +25,10 @@ public class Test_01 {
     @Test
     public void test02() throws IOException {
 
-        FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01.xlsx");
+        FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
         Workbook workbook = WorkbookFactory.create(fileInputStream);
         Sheet sheet = workbook.getSheet("Employees");
-        FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+        FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
         Row row = sheet.createRow(0);
         Cell cell = row.createCell(0);
         cell.setCellValue("Firstname");
@@ -42,10 +42,10 @@ public class Test_01 {
     @Test
     public void test03() throws IOException {
 
-        FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01.xlsx");
+        FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
         Workbook workbook = WorkbookFactory.create(fileInputStream);
         Sheet sheet = workbook.getSheet("Employees");
-        FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+        FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
 //sheet.createRow(1).createCell(0).setCellValue("Name");         NOT CORRECT WAY
 // sheet.createRow(2).createCell(1).setCellValue("Lastname");    NOT CORRECT WAY
         Row row = sheet.createRow(0);
@@ -63,10 +63,10 @@ public class Test_01 {
     @Test
     public void test04() throws IOException {
 
-        FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01.xlsx");
+        FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
         Workbook workbook = WorkbookFactory.create(fileInputStream);
         Sheet sheet = workbook.getSheet("Employees");
-        FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+        FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
         Row row = sheet.createRow(2);
         row.createCell(0).setCellValue("Joe");
         row.createCell(1).setCellValue("Rogan");
@@ -81,7 +81,7 @@ public class Test_01 {
     public void test05(){
         FileOutputStream fileOutputStream = null;
         try {
-            fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01.xlsx");
+            fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
             // Write to the file here
            // workbook.write(fileOutputStream);
         } catch (Exception e) {
