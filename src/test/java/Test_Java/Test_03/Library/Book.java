@@ -11,10 +11,14 @@ public class Book {
 
     public static Map<Integer, Map<String, String>> booksCollection() {
 
-        Map<Integer, Map<String, String>> result = new HashMap<Integer, Map<String, String>>();
+        Map<Integer, Map<String, String>> result = new HashMap<>();
+
         Map<String, String> booksInfo = new HashMap<>();
+
         booksInfo.put(title, author);
+
         result.put(barcode, booksInfo);
+
         return result;
     }
 }

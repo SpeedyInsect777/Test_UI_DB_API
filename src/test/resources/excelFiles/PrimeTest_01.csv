@@ -1,0 +1,53 @@
+Date,Card/Unit,Driver,Truckstop,Product,Quantity,Amount,Discount,Fee,Total
+7/24/23,7,MIKE,TA Porter,Diesel #2,45.65,$191.68 ,$48.34 ,$0.00 ,$227.98 
+18:45 pm,2022,,"Porter, IN",Reefer Fuel,20.16,$84.64 ,,,
+7/26/23,7,MIKE,Pilot #171,Diesel #2,61.43,$251.79 ,$0.00 ,$1.50 ,$253.29 
+2:21 AM,2022,,"Oakwood, IL",,,,,,
+8/2/23,7,MIKE,TA Hebron,Diesel #2,68.12,$299.64 ,$22.59 ,$0.00 ,$277.05 
+12:32 PM,2022,,"Hebron, OH",,,,,,
+8/3/23,7,MIKE,Pilot #247,Diesel #2,78.56,$350.32 ,$0.00 ,$1.50 ,$351.82 
+10:45 AM,2022,,"Crawfordsville, IN",,,,,,
+8/4/23,7,MIKE,Petro Albert Lea (Franchise),Reefer Fuel,70.43,$302.77 ,$16.37 ,$0.00 ,$286.40 
+8:38 AM,2022,,"Albert Lea, MN",,,,,,
+8/4/23,7,MIKE,Loves #445,Diesel #2,58.6,$257.19 ,$0.00 ,$1.50 ,$341.13 
+18:47 pm,2022,,"Sioux Falls, SD",Reefer Fuel,18.61,$82.44 ,,,
+8/6/23,7,MIKE,Loves #750,Diesel #2,62.56,$278.32 ,$0.00 ,$1.50 ,$281.35 
+20:30 pm,2022,,"Oakwood, IL",Reefer Fuel,0.35,$1.53 ,,,
+8/7/23,7,MIKE,Pilot #247,Diesel #2,31.45,$140.25 ,$0.00 ,$1.50 ,$246.23 
+12:40 AM,2022,,"Crawfordsville, IN",Reefer Fuel,23.43,$104.48 ,,,
+8/7/23,7,MIKE,Petro Rochelle,Diesel #2,147.5,$693.10 ,$65.57 ,$0.00 ,$627.53 
+19:23 pm,2022,,"Rochelle, IL",,,,,,
+8/7/23,7,MIKE,Petro Rochelle,Additives,,$79.99 ,$0.00 ,$0.00 ,$85.59 
+19:26 pm,2022,,"Rochelle, IL",Sales Tax,,$5.60 ,,,
+8/8/23,7,MIKE,Petro Albert Lea (Franchise),Diesel #2,81.01,$348.24 ,$33.98 ,$0.00 ,$641.46 
+13:20 pm,2022,,"Albert Lea, MN",Reefer Fuel,12.53,$53.87 ,,,
+,,,,Cash,,$200.00 ,,,
+,,,,Additives,,$67.98 ,,,
+,,,,Sales Tax,,$5.35 ,,,
+8/11/23,7,MIKE,TA Janesville (Franchise),Diesel #2,170.88,$732.92 ,$86.20 ,$0.00 ,$782.69 
+21:30 pm,2022,,"Janesville, WI",Reefer Fuel,31.7,$135.97 ,,,
+8/14/23,7,MIKE,TA Lodi,Diesel #2,31.31,$138.97 ,$16.76 ,$0.00 ,$244.86 
+11:28 AM,2022,,"Seville, OH",Reefer Fuel,27.63,$122.65 ,,,
+8/16/23,7,MIKE,TA Express Osseo,Diesel #2,61.64,$246.48 ,$13.83 ,$0.00 ,$232.65 
+5:19 AM,2022,,"Osseo, WI",,,,,,
+8/16/23,7,MIKE,Petro Portage,Diesel #2,65.43,$285.87 ,$58.64 ,$0.00 ,$551.82 
+16:03 pm,2022,,"Portage, WI",Reefer Fuel,21.52,$94.01 ,,,
+,,,,Cash,,$200.00 ,,,
+,,,,Additives,,$28.99 ,,,
+,,,,Sales Tax,,$1.59 ,,,
+8/19/23,7,MIKE,TA Bloomington,Diesel #2,70.38,$299.73 ,$9.76 ,$0.00 ,$344.20 
+8:42 AM,2022,,"Bloomington, IL",Reefer Fuel,12.73,$54.23 ,,,
+8/19/23,7,MIKE,TA Bloomington,Cash,,$100.00 ,$0.00 ,$0.00 ,$100.00 
+8:53 AM,2022,,"Bloomington, IL",,,,,,
+8/20/23,7,MIKE,Flying J #572,Diesel #2,76.83,$345.64 ,$0.00 ,$1.50 ,$550.41 
+11:33 AM,2022,,"Williams, IA",Reefer Fuel,22.95,$103.27 ,,,
+,,,,Cash,,$100.00 ,,,
+8/21/23,7,MIKE,TA Madison,Diesel #2,185.44,$830.60 ,$160.42 ,$0.00 ,$808.58 
+20:25 pm,2022,,"Deforest, WI",Reefer Fuel,30.9,$138.40 ,,,
+8/23/23,7,MIKE,Petro Portage,Reefer Fuel,34.86,$151.97 ,$22.54 ,$0.00 ,$129.43 
+12:47 PM,2022,,"Portage, WI",,,,,,
+,,,Total,Additives,,$176.96 ,$555.00 ,$9.00 ,"$7,364.47 "
+,,,,Cash,,$600.00 ,,,
+,,,,Diesel #2,"1,296.79","$5,690.74 ",,,
+,,,,Reefer Fuel,327.8,"$1,430.23 ",,,
+,,,,Sales Tax,,$12.54 ,,,

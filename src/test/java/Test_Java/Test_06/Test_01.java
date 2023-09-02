@@ -14,8 +14,10 @@ public class Test_01 {
         FileInputStream fileInputStream = new FileInputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
         Workbook workbook = WorkbookFactory.create(fileInputStream);
         FileOutputStream fileOutputStream = new FileOutputStream("src/test/resources/excelFiles/Test_01_BudgetExcelFileTest.xlsx");
+
         workbook.createSheet("Employees");
         workbook.write(fileOutputStream);
+
         workbook.close();
         fileInputStream.close();
         fileOutputStream.close();

@@ -201,11 +201,44 @@ public class Test01 {
         int totals = numsLong.stream().filter(x -> x > 0).mapToInt(Long::intValue).sum();
         System.out.println(totals);
     }
-@Test
-    public void test12(){
 
+    @Test
+    public void test12() {
 
+        List<String> stringList = new ArrayList<>();
 
+        for (int i = 0; i < 5; i++) {
 
-}
+            stringList.add(faker.name().firstName());
+        }
+
+        int result = (int) stringList.stream().filter(x -> x.startsWith("M")).count();
+
+        System.out.println(stringList);
+        System.out.println(result);
+    }
+
+    public Map<String, String> modifyMap(Map<String, String> inputMap) {
+
+if(inputMap.containsKey("a") && inputMap.containsKey("b")){
+        if ((inputMap.get("a")).equals(inputMap.get("b"))) {
+            inputMap.remove("a");
+            inputMap.remove("b");
+            return inputMap;
+        }}
+        return inputMap;
+    }
+
+    @Test
+    public void test001() {
+
+        Map<String, String> strMap = new HashMap<>();
+
+       // strMap.put("a", "aaa");
+        strMap.put("b", "bbb");
+        //  strMap.put("c","ccc");
+        //  strMap.put("d","ddd");
+
+        System.out.println(modifyMap(strMap));
+    }
 }
